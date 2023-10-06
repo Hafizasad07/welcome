@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Well.come</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="assets/imgs/logo.png" class="logo-img"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex">
+                        <div class="navbar-search">
+                            <span class="fa fa-search"></span>
+                            <input placeholder="Cerca...">
+                        </div>
+                        <div class="icons d-flex d-lg-none">
+                            <a href="#"><img src="assets/imgs/icons/person.svg" alt=""></a>
+                            <a href="cart.html"><img src="assets/imgs/icons/cart.svg" alt=""></a>
+                        </div>
+                    </form>
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="team.html">Chi siamo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ano</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="product.html">Vagina</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pene</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bestsellers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Classici</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Novità</a>
+                        </li>
+                    </ul>
+                    <div class="icons d-none d-lg-flex">
+                        <a href="#"><img src="assets/imgs/icons/person.svg" alt=""></a>
+                        <a href="cart.html"><img src="assets/imgs/icons/cart.svg" alt=""></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-section">
+            <div class="bottom-text-section">
+                <div class="img"><img src="assets/imgs/products/product-hero.png" class="w-100"></div>
+                <div class="vector-text">
+                    <div class="hero-flex">
+                        <div>
+                            <div class="heading">Sex toys per vagina</div>
+                            <div class="text">Se desideri solo il meglio del piacere del lusso, well.come ti offre la selezione di sex toys da donna di miglior qualità del mondo. Scegli tra un ampio assortimento di sex toys progettati per soddisfare tutte le tue esigenze, spesso anche  contemporaneamente.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="banner-section">
+                <div class="container ms-0">
+                    <div class="row mx-auto w-100">
+                        <div class="col-lg-12">
+                            <a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <a href="#" class="active">Vagina</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-section">
+                <div class="container ms-0">
+                    <div class="row mx-auto w-100 justify-content-center">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                            <div class="filters">
+                                <div class="heading">Filtri</div>
+                                <div class="filter-categ">
+                                    <div class="title">Ordine</div>
+                                    <div class="checks-section">
+                                        <label for="crescente"><input type="checkbox" name="crescente" id="crescente"> Crescente</label>
+                                        <label for="decrescente"><input type="checkbox" name="decrescente" id="decrescente"> Decrescente</label>
+                                    </div>
+                                </div>
+                                <div class="filter-categ">
+                                    <div class="title">Categorie</div>
+                                    <div class="checks-section">
+                                        <label for="scontati"><input type="checkbox" name="scontati" id="scontati"> Scontati</label>
+                                        <label for="bestseller"><input type="checkbox" name="bestseller" id="bestseller"> Bestseller</label>
+                                        <label for="nuove"><input type="checkbox" name="nuove" id="nuove"> Nuove uscite</label>
+                                    </div>
+                                </div>
+                                <div class="filter-categ">
+                                    <div class="filter-flex">
+                                        <div class="title m-0">Prezzo</div>
+                                        <div class="icon"><i class="fas fa-chevron-down"></i></div>
+                                    </div>
+                                    <div class="row mx-auto w-100 justify-content-around">
+                                        <div class="col-lg-5 col-md-5 col-sm-6 col-6">
+                                            <input type="text" class="form-control" placeholder="Min">
+                                        </div>
+                                        <div class="col-lg-5 col-md-5 col-sm-6 col-6">
+                                            <input type="text" class="form-control" placeholder="Max">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-categ">
+                                    <div class="title">Colore</div>
+                                    <div class="colors-sample">
+                                        <span style="background-color: #000;"></span>
+                                        <span style="background-color: #9A2386;"></span>
+                                        <span style="background-color: #33358B;"></span>
+                                        <span style="background-color: #764BA1;"></span>
+                                        <span style="background-color: #D72D84;"></span>
+                                        <span style="background-color: #30B5DB;"></span>
+                                        <span style="background-color: #BFC6D0;"></span>
+                                        <span style="background-color: #F1C1D8;"></span>
+                                        <span style="background-color: #89E5E4;"></span>
+                                        <span style="background-color: #D2CAEF;"></span>
+                                        <span style="background-color: #53074C;"></span>
+                                        <span style="background-color: #997EB2;"></span>
+                                        <span style="background-color: #537CDC;"></span>
+                                        <span style="background-color: #DB6E5C;"></span>
+                                        <span style="background-color: #4AC0CC;"></span>
+                                        <span style="background-color: #022159;"></span>
+                                        <span style="background-color: #CD1D47;"></span>
+                                        <span style="background-color: #4AC0CC;"></span>
+                                        <span style="background-color: #022159;"></span>
+                                        <span style="background-color: #CD1D47;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                            <div class="products-section">
+                                <div class="row w-100 mx-auto">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="product-card">
+                                            <div class="heading">
+                                                <div>BESTSELLER</div>
+                                                <div class="discount-badge">-30%</div>
+                                            </div>
+                                            <div class="img"><img src="assets/imgs/products/1.png" class="w-100"></div>
+                                            <div class="details">
+                                                <div class="title">Well.pickle</div>
+                                                <div class="tag">Sex toy vaginale</div>
+                                                <div class="price-flex">
+                                                    <div class="price"><span>150</span> <strong>100 EUR</strong></div>
+                                                    <div class="icons">
+                                                        <span class="dot"></span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+                                                            <g clip-path="url(#clip0_12_424)">
+                                                            <path d="M9.5 1.75C10.2874 1.75 11.0425 2.07924 11.5992 2.66529C12.156 3.25134 12.4688 4.0462 12.4688 4.875V5.5H6.53125V4.875C6.53125 4.0462 6.84403 3.25134 7.40078 2.66529C7.95753 2.07924 8.71264 1.75 9.5 1.75ZM13.6562 5.5V4.875C13.6562 3.71468 13.2184 2.60188 12.4389 1.78141C11.6595 0.960936 10.6023 0.5 9.5 0.5C8.39769 0.5 7.34054 0.960936 6.56109 1.78141C5.78164 2.60188 5.34375 3.71468 5.34375 4.875V5.5H1.1875V18C1.1875 18.663 1.43772 19.2989 1.88312 19.7678C2.32852 20.2366 2.93261 20.5 3.5625 20.5H15.4375C16.0674 20.5 16.6715 20.2366 17.1169 19.7678C17.5623 19.2989 17.8125 18.663 17.8125 18V5.5H13.6562ZM2.375 6.75H16.625V18C16.625 18.3315 16.4999 18.6495 16.2772 18.8839C16.0545 19.1183 15.7524 19.25 15.4375 19.25H3.5625C3.24756 19.25 2.94551 19.1183 2.72281 18.8839C2.50011 18.6495 2.375 18.3315 2.375 18V6.75Z" fill="#222F38"/>
+                                                            </g>
+                                                            <defs>
+                                                            <clipPath id="clip0_12_424">
+                                                            <rect width="19" height="20" fill="white" transform="translate(0 0.5)"/>
+                                                            </clipPath>
+                                                            </defs>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <a href="product-detail.html" class="btn btn-pd">SCOPRI DI PIÙ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="product-card">
+                                            <div class="heading">
+                                                <div>NUOVO</div>
+                                            </div>
+                                            <div class="img"><img src="assets/imgs/products/2.png" class="w-100"></div>
+                                            <div class="details">
+                                                <div class="title">Well.apple</div>
+                                                <div class="tag">Sex toy vaginale</div>
+                                                <div class="price-flex">
+                                                    <div class="price">200 EUR</div>
+                                                    <div class="icons">
+                                                        <span class="dot"></span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+                                                            <g clip-path="url(#clip0_12_424)">
+                                                                <path d="M9.5 1.75C10.2874 1.75 11.0425 2.07924 11.5992 2.66529C12.156 3.25134 12.4688 4.0462 12.4688 4.875V5.5H6.53125V4.875C6.53125 4.0462 6.84403 3.25134 7.40078 2.66529C7.95753 2.07924 8.71264 1.75 9.5 1.75ZM13.6562 5.5V4.875C13.6562 3.71468 13.2184 2.60188 12.4389 1.78141C11.6595 0.960936 10.6023 0.5 9.5 0.5C8.39769 0.5 7.34054 0.960936 6.56109 1.78141C5.78164 2.60188 5.34375 3.71468 5.34375 4.875V5.5H1.1875V18C1.1875 18.663 1.43772 19.2989 1.88312 19.7678C2.32852 20.2366 2.93261 20.5 3.5625 20.5H15.4375C16.0674 20.5 16.6715 20.2366 17.1169 19.7678C17.5623 19.2989 17.8125 18.663 17.8125 18V5.5H13.6562ZM2.375 6.75H16.625V18C16.625 18.3315 16.4999 18.6495 16.2772 18.8839C16.0545 19.1183 15.7524 19.25 15.4375 19.25H3.5625C3.24756 19.25 2.94551 19.1183 2.72281 18.8839C2.50011 18.6495 2.375 18.3315 2.375 18V6.75Z" fill="#222F38"/>
+                                                            </g>
+                                                            <defs>
+                                                                <clipPath id="clip0_12_424">
+                                                                    <rect width="19" height="20" fill="white" transform="translate(0 0.5)"/>
+                                                                </clipPath>
+                                                            </defs>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <a href="product-detail.html" class="btn btn-pd">SCOPRI DI PIÙ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="product-card">
+                                            <div class="heading">
+                                                <div>CLASSICO</div>
+                                                <div class="discount-badge">-50%</div>
+                                            </div>
+                                            <div class="img"><img src="assets/imgs/products/3.png" class="w-100"></div>
+                                            <div class="details">
+                                                <div class="title">Well.pear</div>
+                                                <div class="tag">Sex toy vaginale</div>
+                                                <div class="price-flex">
+                                                    <div class="price"><span>250</span> <strong>125 EUR</strong></div>
+                                                    <div class="icons">
+                                                        <span class="dot"></span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+                                                            <g clip-path="url(#clip0_12_424)">
+                                                                <path d="M9.5 1.75C10.2874 1.75 11.0425 2.07924 11.5992 2.66529C12.156 3.25134 12.4688 4.0462 12.4688 4.875V5.5H6.53125V4.875C6.53125 4.0462 6.84403 3.25134 7.40078 2.66529C7.95753 2.07924 8.71264 1.75 9.5 1.75ZM13.6562 5.5V4.875C13.6562 3.71468 13.2184 2.60188 12.4389 1.78141C11.6595 0.960936 10.6023 0.5 9.5 0.5C8.39769 0.5 7.34054 0.960936 6.56109 1.78141C5.78164 2.60188 5.34375 3.71468 5.34375 4.875V5.5H1.1875V18C1.1875 18.663 1.43772 19.2989 1.88312 19.7678C2.32852 20.2366 2.93261 20.5 3.5625 20.5H15.4375C16.0674 20.5 16.6715 20.2366 17.1169 19.7678C17.5623 19.2989 17.8125 18.663 17.8125 18V5.5H13.6562ZM2.375 6.75H16.625V18C16.625 18.3315 16.4999 18.6495 16.2772 18.8839C16.0545 19.1183 15.7524 19.25 15.4375 19.25H3.5625C3.24756 19.25 2.94551 19.1183 2.72281 18.8839C2.50011 18.6495 2.375 18.3315 2.375 18V6.75Z" fill="#222F38"/>
+                                                            </g>
+                                                            <defs>
+                                                                <clipPath id="clip0_12_424">
+                                                                    <rect width="19" height="20" fill="white" transform="translate(0 0.5)"/>
+                                                                </clipPath>
+                                                            </defs>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <a href="product-detail.html" class="btn btn-pd">SCOPRI DI PIÙ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="product-card">
+                                            <div class="heading">
+                                                <div>BESTSELLER</div>
+                                                <div class="discount-badge">-30%</div>
+                                            </div>
+                                            <div class="img"><img src="assets/imgs/products/4.png" class="w-100"></div>
+                                            <div class="details">
+                                                <div class="title">Well.plum</div>
+                                                <div class="tag">Sex toy vaginale</div>
+                                                <div class="price-flex">
+                                                    <div class="price"><span>150</span> <strong>100 EUR </strong></div>
+                                                    <div class="icons">
+                                                        <span class="dot"></span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+                                                            <g clip-path="url(#clip0_12_424)">
+                                                                <path d="M9.5 1.75C10.2874 1.75 11.0425 2.07924 11.5992 2.66529C12.156 3.25134 12.4688 4.0462 12.4688 4.875V5.5H6.53125V4.875C6.53125 4.0462 6.84403 3.25134 7.40078 2.66529C7.95753 2.07924 8.71264 1.75 9.5 1.75ZM13.6562 5.5V4.875C13.6562 3.71468 13.2184 2.60188 12.4389 1.78141C11.6595 0.960936 10.6023 0.5 9.5 0.5C8.39769 0.5 7.34054 0.960936 6.56109 1.78141C5.78164 2.60188 5.34375 3.71468 5.34375 4.875V5.5H1.1875V18C1.1875 18.663 1.43772 19.2989 1.88312 19.7678C2.32852 20.2366 2.93261 20.5 3.5625 20.5H15.4375C16.0674 20.5 16.6715 20.2366 17.1169 19.7678C17.5623 19.2989 17.8125 18.663 17.8125 18V5.5H13.6562ZM2.375 6.75H16.625V18C16.625 18.3315 16.4999 18.6495 16.2772 18.8839C16.0545 19.1183 15.7524 19.25 15.4375 19.25H3.5625C3.24756 19.25 2.94551 19.1183 2.72281 18.8839C2.50011 18.6495 2.375 18.3315 2.375 18V6.75Z" fill="#222F38"/>
+                                                            </g>
+                                                            <defs>
+                                                                <clipPath id="clip0_12_424">
+                                                                    <rect width="19" height="20" fill="white" transform="translate(0 0.5)"/>
+                                                                </clipPath>
+                                                            </defs>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <a href="product-detail.html" class="btn btn-pd">SCOPRI DI PIÙ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="product-card">
+                                            <div class="heading">
+                                                <div>BESTSELLER</div>
+                                            </div>
+                                            <div class="img"><img src="assets/imgs/products/5.png" class="w-100"></div>
+                                            <div class="details">
+                                                <div class="title">Well.kiwi</div>
+                                                <div class="tag">Sex toy vaginale</div>
+                                                <div class="price-flex">
+                                                    <div class="price">199 EUR</div>
+                                                    <div class="icons">
+                                                        <span class="dot"></span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+                                                            <g clip-path="url(#clip0_12_424)">
+                                                                <path d="M9.5 1.75C10.2874 1.75 11.0425 2.07924 11.5992 2.66529C12.156 3.25134 12.4688 4.0462 12.4688 4.875V5.5H6.53125V4.875C6.53125 4.0462 6.84403 3.25134 7.40078 2.66529C7.95753 2.07924 8.71264 1.75 9.5 1.75ZM13.6562 5.5V4.875C13.6562 3.71468 13.2184 2.60188 12.4389 1.78141C11.6595 0.960936 10.6023 0.5 9.5 0.5C8.39769 0.5 7.34054 0.960936 6.56109 1.78141C5.78164 2.60188 5.34375 3.71468 5.34375 4.875V5.5H1.1875V18C1.1875 18.663 1.43772 19.2989 1.88312 19.7678C2.32852 20.2366 2.93261 20.5 3.5625 20.5H15.4375C16.0674 20.5 16.6715 20.2366 17.1169 19.7678C17.5623 19.2989 17.8125 18.663 17.8125 18V5.5H13.6562ZM2.375 6.75H16.625V18C16.625 18.3315 16.4999 18.6495 16.2772 18.8839C16.0545 19.1183 15.7524 19.25 15.4375 19.25H3.5625C3.24756 19.25 2.94551 19.1183 2.72281 18.8839C2.50011 18.6495 2.375 18.3315 2.375 18V6.75Z" fill="#222F38"/>
+                                                            </g>
+                                                            <defs>
+                                                                <clipPath id="clip0_12_424">
+                                                                    <rect width="19" height="20" fill="white" transform="translate(0 0.5)"/>
+                                                                </clipPath>
+                                                            </defs>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <a href="product-detail.html" class="btn btn-pd">SCOPRI DI PIÙ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="product-card">
+                                            <div class="heading">
+                                                <div>BESTSELLER</div>
+                                                <div class="discount-badge">-30%</div>
+                                            </div>
+                                            <div class="img"><img src="assets/imgs/products/6.png" class="w-100"></div>
+                                            <div class="details">
+                                                <div class="title">Well.pumpkin</div>
+                                                <div class="tag">Sex toy vaginale</div>
+                                                <div class="price-flex">
+                                                    <div class="price">100 EUR</div>
+                                                    <div class="icons">
+                                                        <span class="dot"></span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+                                                            <g clip-path="url(#clip0_12_424)">
+                                                                <path d="M9.5 1.75C10.2874 1.75 11.0425 2.07924 11.5992 2.66529C12.156 3.25134 12.4688 4.0462 12.4688 4.875V5.5H6.53125V4.875C6.53125 4.0462 6.84403 3.25134 7.40078 2.66529C7.95753 2.07924 8.71264 1.75 9.5 1.75ZM13.6562 5.5V4.875C13.6562 3.71468 13.2184 2.60188 12.4389 1.78141C11.6595 0.960936 10.6023 0.5 9.5 0.5C8.39769 0.5 7.34054 0.960936 6.56109 1.78141C5.78164 2.60188 5.34375 3.71468 5.34375 4.875V5.5H1.1875V18C1.1875 18.663 1.43772 19.2989 1.88312 19.7678C2.32852 20.2366 2.93261 20.5 3.5625 20.5H15.4375C16.0674 20.5 16.6715 20.2366 17.1169 19.7678C17.5623 19.2989 17.8125 18.663 17.8125 18V5.5H13.6562ZM2.375 6.75H16.625V18C16.625 18.3315 16.4999 18.6495 16.2772 18.8839C16.0545 19.1183 15.7524 19.25 15.4375 19.25H3.5625C3.24756 19.25 2.94551 19.1183 2.72281 18.8839C2.50011 18.6495 2.375 18.3315 2.375 18V6.75Z" fill="#222F38"/>
+                                                            </g>
+                                                            <defs>
+                                                                <clipPath id="clip0_12_424">
+                                                                    <rect width="19" height="20" fill="white" transform="translate(0 0.5)"/>
+                                                                </clipPath>
+                                                            </defs>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <a href="product-detail.html" class="btn btn-pd">SCOPRI DI PIÙ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="product-card">
+                                            <div class="heading">
+                                                <div>BESTSELLER</div>
+                                            </div>
+                                            <div class="img"><img src="assets/imgs/products/7.png" class="w-100"></div>
+                                            <div class="details">
+                                                <div class="title">Well.tomato</div>
+                                                <div class="tag">Sex toy vaginale</div>
+                                                <div class="price-flex">
+                                                    <div class="price">99 EUR</div>
+                                                    <div class="icons">
+                                                        <span class="dot"></span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+                                                            <g clip-path="url(#clip0_12_424)">
+                                                                <path d="M9.5 1.75C10.2874 1.75 11.0425 2.07924 11.5992 2.66529C12.156 3.25134 12.4688 4.0462 12.4688 4.875V5.5H6.53125V4.875C6.53125 4.0462 6.84403 3.25134 7.40078 2.66529C7.95753 2.07924 8.71264 1.75 9.5 1.75ZM13.6562 5.5V4.875C13.6562 3.71468 13.2184 2.60188 12.4389 1.78141C11.6595 0.960936 10.6023 0.5 9.5 0.5C8.39769 0.5 7.34054 0.960936 6.56109 1.78141C5.78164 2.60188 5.34375 3.71468 5.34375 4.875V5.5H1.1875V18C1.1875 18.663 1.43772 19.2989 1.88312 19.7678C2.32852 20.2366 2.93261 20.5 3.5625 20.5H15.4375C16.0674 20.5 16.6715 20.2366 17.1169 19.7678C17.5623 19.2989 17.8125 18.663 17.8125 18V5.5H13.6562ZM2.375 6.75H16.625V18C16.625 18.3315 16.4999 18.6495 16.2772 18.8839C16.0545 19.1183 15.7524 19.25 15.4375 19.25H3.5625C3.24756 19.25 2.94551 19.1183 2.72281 18.8839C2.50011 18.6495 2.375 18.3315 2.375 18V6.75Z" fill="#222F38"/>
+                                                            </g>
+                                                            <defs>
+                                                                <clipPath id="clip0_12_424">
+                                                                    <rect width="19" height="20" fill="white" transform="translate(0 0.5)"/>
+                                                                </clipPath>
+                                                            </defs>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <a href="product-detail.html" class="btn btn-pd">SCOPRI DI PIÙ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="product-card">
+                                            <div class="heading">
+                                                <div>BESTSELLER</div>
+                                                <div class="discount-badge">-30%</div>
+                                            </div>
+                                            <div class="img"><img src="assets/imgs/products/8.png" class="w-100"></div>
+                                            <div class="details">
+                                                <div class="title">Well.iris</div>
+                                                <div class="tag">Sex toy vaginale</div>
+                                                <div class="price-flex">
+                                                    <div class="price"><span>150</span> <strong>100 EUR </strong></div>
+                                                    <div class="icons">
+                                                        <span class="dot"></span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+                                                            <g clip-path="url(#clip0_12_424)">
+                                                                <path d="M9.5 1.75C10.2874 1.75 11.0425 2.07924 11.5992 2.66529C12.156 3.25134 12.4688 4.0462 12.4688 4.875V5.5H6.53125V4.875C6.53125 4.0462 6.84403 3.25134 7.40078 2.66529C7.95753 2.07924 8.71264 1.75 9.5 1.75ZM13.6562 5.5V4.875C13.6562 3.71468 13.2184 2.60188 12.4389 1.78141C11.6595 0.960936 10.6023 0.5 9.5 0.5C8.39769 0.5 7.34054 0.960936 6.56109 1.78141C5.78164 2.60188 5.34375 3.71468 5.34375 4.875V5.5H1.1875V18C1.1875 18.663 1.43772 19.2989 1.88312 19.7678C2.32852 20.2366 2.93261 20.5 3.5625 20.5H15.4375C16.0674 20.5 16.6715 20.2366 17.1169 19.7678C17.5623 19.2989 17.8125 18.663 17.8125 18V5.5H13.6562ZM2.375 6.75H16.625V18C16.625 18.3315 16.4999 18.6495 16.2772 18.8839C16.0545 19.1183 15.7524 19.25 15.4375 19.25H3.5625C3.24756 19.25 2.94551 19.1183 2.72281 18.8839C2.50011 18.6495 2.375 18.3315 2.375 18V6.75Z" fill="#222F38"/>
+                                                            </g>
+                                                            <defs>
+                                                                <clipPath id="clip0_12_424">
+                                                                    <rect width="19" height="20" fill="white" transform="translate(0 0.5)"/>
+                                                                </clipPath>
+                                                            </defs>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <a href="product-detail.html" class="btn btn-pd">SCOPRI DI PIÙ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="product-card">
+                                            <div class="heading">
+                                                <div>BESTSELLER</div>
+                                                <div class="discount-badge">-30%</div>
+                                            </div>
+                                            <div class="img"><img src="assets/imgs/products/9.png" class="w-100"></div>
+                                            <div class="details">
+                                                <div class="title">Well.rose</div>
+                                                <div class="tag">Sex toy vaginale</div>
+                                                <div class="price-flex">
+                                                    <div class="price"><span>120</span> <strong>72 EUR</strong></div>
+                                                    <div class="icons">
+                                                        <span class="dot"></span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+                                                            <g clip-path="url(#clip0_12_424)">
+                                                                <path d="M9.5 1.75C10.2874 1.75 11.0425 2.07924 11.5992 2.66529C12.156 3.25134 12.4688 4.0462 12.4688 4.875V5.5H6.53125V4.875C6.53125 4.0462 6.84403 3.25134 7.40078 2.66529C7.95753 2.07924 8.71264 1.75 9.5 1.75ZM13.6562 5.5V4.875C13.6562 3.71468 13.2184 2.60188 12.4389 1.78141C11.6595 0.960936 10.6023 0.5 9.5 0.5C8.39769 0.5 7.34054 0.960936 6.56109 1.78141C5.78164 2.60188 5.34375 3.71468 5.34375 4.875V5.5H1.1875V18C1.1875 18.663 1.43772 19.2989 1.88312 19.7678C2.32852 20.2366 2.93261 20.5 3.5625 20.5H15.4375C16.0674 20.5 16.6715 20.2366 17.1169 19.7678C17.5623 19.2989 17.8125 18.663 17.8125 18V5.5H13.6562ZM2.375 6.75H16.625V18C16.625 18.3315 16.4999 18.6495 16.2772 18.8839C16.0545 19.1183 15.7524 19.25 15.4375 19.25H3.5625C3.24756 19.25 2.94551 19.1183 2.72281 18.8839C2.50011 18.6495 2.375 18.3315 2.375 18V6.75Z" fill="#222F38"/>
+                                                            </g>
+                                                            <defs>
+                                                                <clipPath id="clip0_12_424">
+                                                                    <rect width="19" height="20" fill="white" transform="translate(0 0.5)"/>
+                                                                </clipPath>
+                                                            </defs>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <a href="product-detail.html" class="btn btn-pd">SCOPRI DI PIÙ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="product-card">
+                                            <div class="heading">
+                                                <div>BESTSELLER</div>
+                                            </div>
+                                            <div class="img"><img src="assets/imgs/products/10.png" class="w-100"></div>
+                                            <div class="details">
+                                                <div class="title">Well.pomegranate</div>
+                                                <div class="tag">Sex toy vaginale</div>
+                                                <div class="price-flex">
+                                                    <div class="price">90 EUR</div>
+                                                    <div class="icons">
+                                                        <span class="dot"></span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+                                                            <g clip-path="url(#clip0_12_424)">
+                                                                <path d="M9.5 1.75C10.2874 1.75 11.0425 2.07924 11.5992 2.66529C12.156 3.25134 12.4688 4.0462 12.4688 4.875V5.5H6.53125V4.875C6.53125 4.0462 6.84403 3.25134 7.40078 2.66529C7.95753 2.07924 8.71264 1.75 9.5 1.75ZM13.6562 5.5V4.875C13.6562 3.71468 13.2184 2.60188 12.4389 1.78141C11.6595 0.960936 10.6023 0.5 9.5 0.5C8.39769 0.5 7.34054 0.960936 6.56109 1.78141C5.78164 2.60188 5.34375 3.71468 5.34375 4.875V5.5H1.1875V18C1.1875 18.663 1.43772 19.2989 1.88312 19.7678C2.32852 20.2366 2.93261 20.5 3.5625 20.5H15.4375C16.0674 20.5 16.6715 20.2366 17.1169 19.7678C17.5623 19.2989 17.8125 18.663 17.8125 18V5.5H13.6562ZM2.375 6.75H16.625V18C16.625 18.3315 16.4999 18.6495 16.2772 18.8839C16.0545 19.1183 15.7524 19.25 15.4375 19.25H3.5625C3.24756 19.25 2.94551 19.1183 2.72281 18.8839C2.50011 18.6495 2.375 18.3315 2.375 18V6.75Z" fill="#222F38"/>
+                                                            </g>
+                                                            <defs>
+                                                                <clipPath id="clip0_12_424">
+                                                                    <rect width="19" height="20" fill="white" transform="translate(0 0.5)"/>
+                                                                </clipPath>
+                                                            </defs>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <a href="product-detail.html" class="btn btn-pd">SCOPRI DI PIÙ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="product-card">
+                                            <div class="heading">
+                                                <div>BESTSELLER</div>
+                                            </div>
+                                            <div class="img"><img src="assets/imgs/products/11.png" class="w-100"></div>
+                                            <div class="details">
+                                                <div class="title">Well.dandelion</div>
+                                                <div class="tag">Sex toy vaginale</div>
+                                                <div class="price-flex">
+                                                    <div class="price">100 EUR</div>
+                                                    <div class="icons">
+                                                        <span class="dot"></span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+                                                            <g clip-path="url(#clip0_12_424)">
+                                                                <path d="M9.5 1.75C10.2874 1.75 11.0425 2.07924 11.5992 2.66529C12.156 3.25134 12.4688 4.0462 12.4688 4.875V5.5H6.53125V4.875C6.53125 4.0462 6.84403 3.25134 7.40078 2.66529C7.95753 2.07924 8.71264 1.75 9.5 1.75ZM13.6562 5.5V4.875C13.6562 3.71468 13.2184 2.60188 12.4389 1.78141C11.6595 0.960936 10.6023 0.5 9.5 0.5C8.39769 0.5 7.34054 0.960936 6.56109 1.78141C5.78164 2.60188 5.34375 3.71468 5.34375 4.875V5.5H1.1875V18C1.1875 18.663 1.43772 19.2989 1.88312 19.7678C2.32852 20.2366 2.93261 20.5 3.5625 20.5H15.4375C16.0674 20.5 16.6715 20.2366 17.1169 19.7678C17.5623 19.2989 17.8125 18.663 17.8125 18V5.5H13.6562ZM2.375 6.75H16.625V18C16.625 18.3315 16.4999 18.6495 16.2772 18.8839C16.0545 19.1183 15.7524 19.25 15.4375 19.25H3.5625C3.24756 19.25 2.94551 19.1183 2.72281 18.8839C2.50011 18.6495 2.375 18.3315 2.375 18V6.75Z" fill="#222F38"/>
+                                                            </g>
+                                                            <defs>
+                                                                <clipPath id="clip0_12_424">
+                                                                    <rect width="19" height="20" fill="white" transform="translate(0 0.5)"/>
+                                                                </clipPath>
+                                                            </defs>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <a href="product-detail.html" class="btn btn-pd">SCOPRI DI PIÙ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="product-card">
+                                            <div class="heading">
+                                                <div>BESTSELLER</div>
+                                            </div>
+                                            <div class="img"><img src="assets/imgs/products/12.png" class="w-100"></div>
+                                            <div class="details">
+                                                <div class="title">Well.berry</div>
+                                                <div class="tag">Sex toy vaginale</div>
+                                                <div class="price-flex">
+                                                    <div class="price">80 EUR</div>
+                                                    <div class="icons">
+                                                        <span class="dot"></span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+                                                            <g clip-path="url(#clip0_12_424)">
+                                                                <path d="M9.5 1.75C10.2874 1.75 11.0425 2.07924 11.5992 2.66529C12.156 3.25134 12.4688 4.0462 12.4688 4.875V5.5H6.53125V4.875C6.53125 4.0462 6.84403 3.25134 7.40078 2.66529C7.95753 2.07924 8.71264 1.75 9.5 1.75ZM13.6562 5.5V4.875C13.6562 3.71468 13.2184 2.60188 12.4389 1.78141C11.6595 0.960936 10.6023 0.5 9.5 0.5C8.39769 0.5 7.34054 0.960936 6.56109 1.78141C5.78164 2.60188 5.34375 3.71468 5.34375 4.875V5.5H1.1875V18C1.1875 18.663 1.43772 19.2989 1.88312 19.7678C2.32852 20.2366 2.93261 20.5 3.5625 20.5H15.4375C16.0674 20.5 16.6715 20.2366 17.1169 19.7678C17.5623 19.2989 17.8125 18.663 17.8125 18V5.5H13.6562ZM2.375 6.75H16.625V18C16.625 18.3315 16.4999 18.6495 16.2772 18.8839C16.0545 19.1183 15.7524 19.25 15.4375 19.25H3.5625C3.24756 19.25 2.94551 19.1183 2.72281 18.8839C2.50011 18.6495 2.375 18.3315 2.375 18V6.75Z" fill="#222F38"/>
+                                                            </g>
+                                                            <defs>
+                                                                <clipPath id="clip0_12_424">
+                                                                    <rect width="19" height="20" fill="white" transform="translate(0 0.5)"/>
+                                                                </clipPath>
+                                                            </defs>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                <a href="product-detail.html" class="btn btn-pd">SCOPRI DI PIÙ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subscriber-section">
+            <div class="container">
+                <div class="row mx-auto w-100">
+                    <div class="col-lg-12">
+                        <div class="heading">Sempre insieme</div>
+                        <div class="text">Iscriviti alla newsletter per ricevere tutte le nostre offerte speciali.</div>
+                        <div class="subs-form">
+                            <form action="#">
+                                <input type="text" name="subs" class="subs-input">
+                                <input type="submit" value="Iscriviti" class="btn btn-submit">
+                            </form>
+                        </div>
+                        <div class="subs-check">
+                            <label for="sub-check"><input type="checkbox" name="sub-check" id="sub-check"> Accetto l' Informativa sulla privacy.</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-section">
+            <div class="container">
+                <div class="row mx-auto w-100">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="footer-heading">Azienda</div>
+                        <ul class="footer-links">
+                            <li><a href="#">A proposito di Well.come</a></li>
+                            <li><a href="#">Informazioni aziendali</a></li>
+                            <li><a href="#">Premi del settore</a></li>
+                            <li><a href="#">Area stampa</a></li>
+                            <li><a href="#">Carriere</a></li>
+                            <li><a href="#">Informativa sulla privacy</a></li>
+                            <li><a href="#">Informativa sui cookie</a></li>
+                            <li><a href="#">Termini di utilizzo</a></li>
+                            <li><a href="#">Programma di affiliazione</a></li>
+                            <li><a href="#">I rivenditori</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="footer-heading">Assistenza</div>
+                        <ul class="footer-links">
+                            <li><a href="#">Contatta l’assistenza</a></li>
+                            <li><a href="#">Spedizione</a></li>
+                            <li><a href="#">Garanzia Well.come</a></li>
+                            <li><a href="#">FAQ generali</a></li>
+                            <li><a href="#">FAQ sugli acquisti</a></li>
+                            <li><a href="#">FAQ sui prodotti</a></li>
+                            <li><a href="#">Environmental labels</a></li>
+                            <li><a href="#">Rimaniamo in contatto</a></li>
+                            <li><a href="#">Store locator</a></li>
+                            <li><a href="#">Sconto studenti</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="footer-heading">Sfoglia </div>
+                        <ul class="footer-links">
+                            <li><a href="#">Categorie</a></li>
+                            <li><a href="#">Sconti e offerte</a></li>
+                            <li><a href="#">Sex toys più venduti</a></li>
+                            <li><a href="#">Sex toys per vagina</a></li>
+                            <li><a href="#">Sex toys per pene</a></li>
+                            <li><a href="#">Sex toys per ano</a></li>
+                            <li><a href="#">Sex toys per coppie</a></li>
+                            <li><a href="#">Accessori sessuali</a></li>
+                            <li><a href="#">Preservativi</a></li>
+                            <li><a href="#">Love box</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="footer-cards">
+                            <img src="assets/imgs/footer-cards/1.png">
+                            <img src="assets/imgs/footer-cards/2.png">
+                            <img src="assets/imgs/footer-cards/3.png">
+                            <img src="assets/imgs/footer-cards/4.png">
+                            <img src="assets/imgs/footer-cards/5.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="copyright-text">
+                            <p>© 2003-2023 WELL.COME Tutti i diritti riservati.</p>
+                            Tutti i modelli che compaiono su questo sito hanno almeno 18 anni. Accedendo a questo sito giuri di avere l'età legale nella tua zona per vedere materiale per adulti e di voler vedere tale materiale.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
