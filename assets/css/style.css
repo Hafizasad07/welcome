@@ -278,6 +278,7 @@
 .subscriber-section .subs-form form .subs-input{
     width: calc(100% - 150px);
     border: 0px;
+    padding: 10px;
 }
 .subscriber-section .subs-form form .btn-submit{
     background-color: #222F38;
